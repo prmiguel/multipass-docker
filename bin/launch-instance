@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+multipass launch --cpus 4 --memory 4GB --disk 10GB --name docker 22.04 --cloud-init multipass-docker.yml
